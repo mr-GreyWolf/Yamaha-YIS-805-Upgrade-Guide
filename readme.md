@@ -128,9 +128,9 @@ The 3D-printed part is installed on top of the Gotek's case, then the front pane
 
 ![](Pics/cover_installed.jpg)
 
-After installation please power up the computer and check that you can boot from the mounted DSK image located on the USB drive. If the computer only boots to MSX Basic, use the "**files"** command (without quotes) to list the directory of the mounted DSK image. If the image is not mounted, please check whether the Gotek emulator is properly powered and connected to the motherboard. Also check that the mounted DSK image is good.
+After installation please power up the computer and check that you can boot from the mounted DSK image located on the USB drive. If the computer only boots to MSX Basic, use the **"files"** command (without quotes) to list the directory of the mounted DSK image. If the image is not mounted, please check whether the Gotek emulator is properly powered and connected to the motherboard. Also check that the mounted DSK image is good.
 
-For even better usability you can install an OLED screen into the Gotek emulator's case. Then you will see the names of mounted DSK images and the disk activity. More info on installing the OLED screens into the Gotek you might want to check the corresponding topics on **www.msx.org** or **zx-pk.ru** (for Russian-speaking people) forums.
+For even better usability you can install an OLED screen into the Gotek emulator's case. Then you will see the names of mounted DSK images and the disk activity. More info on installing the OLED screens into the Gotek you might want to check the corresponding topics on **https://www.msx.org** or **https://zx-pk.ru** (for Russian-speaking people) forums.
 
 The final optional upgrade that could be done for the YIS805 and similar computers is installing the improved video board. In the Russian versions of this computer the video boards could only output black and white composite video and color RGB signals. The new video board adds a decent quality color composite video and excellent quality S-Video capabilities. The board was designed by RBSC for the MSX2+ upgrade and it looks like that:
 
@@ -169,12 +169,11 @@ We, the RBSC, enjoyed creating this MSX2+ upgrade for you! The following individ
     
 And those who opposed or tried to prevent this MSX2+ upgrade one way or another (you know who you are) will not be mentioned here. Let them stay in the dark shadows of their own pride forever. Amen!
 
-**P.S.**
+## P.S.
 
 The dedicated topics about this MSX2+ upgrade:
 -   **https://www.msx.org/forum/msx-talk/hardware/upgrading-yamaha-yis805-to-msx2**
 -   **https://zx-pk.ru/threads/30796-apgrejd-yamakhi-yis805-128-do-msx2.html**
-    
 
 This documentation is always available here:
 -   **http://podrezov.com/yis805gotek/Yamaha%20YIS805%20Upgrade%20Guide.doc**
