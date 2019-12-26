@@ -9,7 +9,6 @@ The fully illustrated upgrade guide. Revision 1.0
 
 Copyright (c) 2019 by RBSC
 
-
 ## Abstract
 
 The purpose of this document is to provide assistance in upgrading of the Yamaha YIS805/128 MSX2 and similar computers to MSX2+. Each upgrade step of this guide is fully illustrated. The upgrade must be done the way it's described in this document. Any alterations may result in a different end result or in a damage to the computer or components that are being used for the upgrade. The upgrade is fully reversible except for the VDP - you can convert your computer back to MSX2 any time. The upgraded VDP is backwards compatible with the original one.
@@ -87,7 +86,7 @@ The adapter board requires 2 supports to be 3D-printed and installed under the b
 <div>
     <img src="Pics/adapter1.jpg"
     width="30%" height="30%"/>
-
+&thinsp;
 </div>
 <div>
     <img src="Pics/adapter2.jpg"
