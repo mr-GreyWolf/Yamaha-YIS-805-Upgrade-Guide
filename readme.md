@@ -68,12 +68,12 @@ The data in the archive is already prepared to be written into the 65kb W27C512 
 
 | Socket | 1 |  2 |  3 |  4 | 5 |
 ----------| --------------------- | --------------------- | --------------------- | --------------------- | --------------------- | 
-**File** | 1.rom | 2.rom | 3.rom | 4.rom |  5.rom |
-**Contents of the ROM** | MSX2+ BIOS and Basic 3.0 | FMPAC BIOS (internal) | DISK BIOS 1.0 | MSX2+ EXT and Kanji ROM (part 1) | Kanji ROM (part 2) | 
-| **Position on board** | IC320 | IC324 | IC328 | IC332 | IC336 |
-| **Slot allocation** | 0.0 | 0.1 | 3.1 | 3.0 | 3.0 |
-| **Address** | 0000-7FFF | 0000-7FFF | 0000-7FFF | 0000-7FFF | 8000-BFFF |
-| **Size** | 32kb data | 16kb padding + 16kb data | 16kb padding + 16kb data | 32kb data | 16kb data + 16kb padding |
+| <p align="center">**File**</p> | <p align="center">1.rom</p> | <p align="center">2.rom</p> | <p align="center">3.rom</p> | <p align="center">4.rom</p> |  <p align="center">5.rom</p> |
+| <p align="center">**Contents of the ROM**</p> | MSX2+ BIOS and Basic 3.0 | FMPAC BIOS (internal) | DISK BIOS 1.0 | MSX2+ EXT and Kanji ROM (part 1) | Kanji ROM (part 2) | 
+| <p align="center">**Position on board**</p> | <p align="center">IC320</p> | <p align="center">IC324</p> | <p align="center">IC328</p> | <p align="center">IC332</p> | <p align="center">IC336<p> |
+| <p align="center">**Slot allocation**</p> | <p align="center">0.0</p> | <p align="center">0.1</p> | <p align="center">3.1</p> | <p align="center">3.0</p> | <p align="center">3.0</p> |
+| <p align="center">**Address**</p> | <p align="center">0000-7FFF</p> | <p align="center">0000-7FFF</p> | <p align="center">0000-7FFF</p> | <p align="center">0000-7FFF</p> | <p align="center">8000-BFFF</p> |
+| <p align="center">**Size**</p> | <p align="center">32kb data</p> | <p align="center">16kb padding + 16kb data</p> | <p align="center">16kb padding + 16kb data</p> | <p align="center">32kb data</p> | <p align="center">16kb data + 16kb padding</p> |
 
 By default the slot 0 is not expanded, but we need it to be expanded. To expand the slot 0 for the FMPAC BIOS you need to solder the 1N4148 diode to D301 placeholder as shown on the below image. This will permanently expand slot 0 and permit to use FM Basic commands. The diode must be soldered with the same orientation as D302 and D303 diodes. If your computer already has slot 0 expanded, you won't need to install the new diode.
 
