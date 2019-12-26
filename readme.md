@@ -83,6 +83,7 @@ By default the slot 0 is not expanded, but we need it to be expanded. To expand 
 The next step is to remove the Z80 CPU put a DIP40 socket in its place. If you intend to use the original Z80 processor, then take the risk and carefully desolder it from the motherboard. The socket is required to install the special adapter board. As the Z80 is partially covered by the computer's power supply, there's not enough vertical space to install the combo board that contains the F4 port and FMPAC OPLL sound card. The F4 port is required for warm booting.
 
 The adapter board requires 2 supports to be 3D-printed and installed under the board. Those are necessary to hold the board in place when installing or removing the F4/FMPAC combo board. Use the flathead screws to attach the supports to the adapter board before installation. You also need to put 2 pieces of thin double-sided sticky tape on the feet of both supports in order to glue them onto the motherboard. See the pictures below for reference:
+
 ![](Pics/adapter1.jpg) ![](Pics/adapter2.jpg)
 
 The adapter board is available as open-source project in the RBSC's Github repository. The 3D models of the supports can be downloaded from the other RBSC's repository on Thingiverse:
