@@ -124,9 +124,7 @@ The J305 placeholder needs to be fitted with the 5-pin jumper pin header with th
 <div>
     <img src="Pics/jumper1.jpg"
     width="40%" height="40%"/>
-&thinsp;
-</div>
-<div>
+    &thinsp;
     <img src="Pics/jumper2.jpg"
     width="35%" height="35%"/>
 </div>
