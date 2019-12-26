@@ -1,7 +1,9 @@
-![RBSC](Pics/RBSC.jpeg)
+<div>
+    <img src="Pics/RBSC.png" alt="RBSC"
+    width="20%" height="20%"/>
+</div>
 
 # Upgrading Yamaha YIS805/128 to MSX2+
-
 
 The fully illustrated upgrade guide. Revision 1.0
 
