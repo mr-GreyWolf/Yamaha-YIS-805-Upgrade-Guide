@@ -74,7 +74,7 @@ To complete the job you need to program 5 ROM chips with the necessary data usin
     
 The data in the archive is already prepared to be written into the 65kb W27C512 chips. After programming a chip we recommend to mark its number with a permanent marker. This will help to insert the chip into the correct socket. The info about the new ROMs and their locations in computer's memory can be found in the below table:
 
-| Socket ⇒ | 1 |  2 | 3 | 4 | 5 |
+| Socket → | 1 |  2 | 3 | 4 | 5 |
 | :---: | :---: | :---: | :---: | :---: | :---: | 
 | **File** | 1.rom | 2.rom | 3.rom | 4.rom |  5.rom |
 | **Contents of the ROM** | MSX2+ BIOS and Basic 3.0 | FMPAC BIOS (internal) | DISK BIOS 1.0 | MSX2+ EXT and Kanji ROM (part 1) | Kanji ROM (part 2) | 
