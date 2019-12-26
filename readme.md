@@ -87,7 +87,7 @@ The adapter board requires 2 supports to be 3D-printed and installed under the b
 <div>
     <img src="Pics/adapter1.jpg"
     width="30%" height="30%"/>
-&thinsp;
+
 </div>
 <div>
     <img src="Pics/adapter2.jpg"
