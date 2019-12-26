@@ -87,6 +87,7 @@ The adapter board requires 2 supports to be 3D-printed and installed under the b
 <div>
     <img src="Pics/adapter1.jpg"
     width="30%" height="30%"/>
+&thinsp;
 </div>
 <div>
     <img src="Pics/adapter2.jpg"
@@ -126,7 +127,7 @@ The J305 placeholder needs to be fitted with the 5-pin jumper pin header with th
 <div>
     <img src="Pics/jumper1.jpg"
     width="40%" height="40%"/>
-&nbsp
+&thinsp;
 </div>
 <div>
     <img src="Pics/jumper2.jpg"
