@@ -57,7 +57,10 @@ Finally, the 1N4148 diode must be installed **between Z80's pin 24** and **v9958
 
 As the new VDP misses a few internal filters, we need to modify the CSYNC output circuit on the motherboard. This requires removing the TR309 transistor and the R424 resistor from the board. Then a wire needs to be installed between the side solder pads of the removed transistor. And finally a ceramic 100nF capacitor of needs to be installed on top of the R426 transistor. See the below picture for reference.
 
-![](Pics/sync.jpg)
+<div>
+    <img src="Pics/sync.jpg"
+    width="40%" height="40%"/>
+<div>
 
 This concludes the installation of the new VDP chip. You might want to power up the computer to verify that the new chip produces the correct image before proceeding with the other modifications. If the picture doesn't appear, then check all connections or replace the VPD chip if necessary.
 
@@ -82,8 +85,11 @@ The data in the archive is already prepared to be written into the 65kb W27C512 
 
 By default the slot 0 is not expanded, but we need it to be expanded. To expand the slot 0 for the FMPAC BIOS you need to solder the 1N4148 diode to D301 placeholder as shown on the below image. This will permanently expand slot 0 and permit to use FM Basic commands. The diode must be soldered with the same orientation as D302 and D303 diodes. If your computer already has slot 0 expanded, you won't need to install the new diode.
 
-![](Pics/diode.jpg)
-
+<div>
+    <img src="Pics/diode.jpg"
+    width="40%" height="40%"/>
+<div>
+    
 The next step is to remove the Z80 CPU put a DIP40 socket in its place. If you intend to use the original Z80 processor, then take the risk and carefully desolder it from the motherboard. The socket is required to install the special adapter board. As the Z80 is partially covered by the computer's power supply, there's not enough vertical space to install the combo board that contains the F4 port and FMPAC OPLL sound card. The F4 port is required for warm booting.
 
 The adapter board requires 2 supports to be 3D-printed and installed under the board. Those are necessary to hold the board in place when installing or removing the F4/FMPAC combo board. Use the flathead screws to attach the supports to the adapter board before installation. You also need to put 2 pieces of thin double-sided sticky tape on the feet of both supports in order to glue them onto the motherboard. See the pictures below for reference:
@@ -102,7 +108,10 @@ The adapter board is available as open-source project in the RBSC's Github repos
 
 To be able to connect the F4/FMPAC combo board to the motherboard you need to install 6-pin jumper pin header. The picture below shows the way that the pins must be installed. For the combo board v1.4 you will need to connect 4 wires: ground (GND), audio (AUD), +12V and -12V. Please make sure that you connect the 12V wires correctly or you will damage the amplifier on the combo board!
 
-![](Pics/boardconn.jpg)
+<div>
+    <img src="Pics/boardconn.jpg"
+    width="70%" height="70%"/>
+<div>
 
 The assembled combo board (without the ROM chip) is installed into the socket of the adapter board by gently pushing it downwards. Please make sure that the pins of the combo board are connected to the socket in the right way or you may damage the Z80 CPU installed on the board. The picture below shows how the combo board is installed and connected to the newly-soldered pins on the motherboard.
 
