@@ -77,7 +77,7 @@ The data in the archive is already prepared to be written into the 65kb W27C512 
 | Socket → | 1 |  2 | 3 | 4 | 5 |
 | :---: | :---: | :---: | :---: | :---: | :---: | 
 | **File** | 1.rom | 2.rom | 3.rom | 4.rom |  5.rom |
-| **Contents of the ROM** | MSX2+ BIOS <br> and Basic 3.0 | FMPAC BIOS <br> (internal) | DISK BIOS 1.0 | MSX2+ EXT <br> and Kanji ROM <br> (part 1) | Kanji ROM <br> (part 2) | 
+| **Contents of the ROM** | MSX2+ BIOS and Basic 3.0 | FMPAC BIOS <br> (internal) | DISK BIOS 1.0 | MSX2+ EXT <br> and Kanji ROM <br> (part 1) | Kanji ROM <br> (part 2) | 
 | **Position on board** | IC320 | IC324| IC328 | IC332 | IC336 |
 | **Slot allocation** | 0.0 | 0.1 | 3.1 | 3.0 | 3.0 |
 | **Address** | 0000-7FFF | 0000-7FFF | 0000-7FFF | 0000-7FFF | 8000-BFFF |
