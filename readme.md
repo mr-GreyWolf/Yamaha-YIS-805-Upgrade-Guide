@@ -13,6 +13,7 @@ Copyright (c) 2019 by RBSC
 
 The purpose of this document is to provide assistance in upgrading of the Yamaha YIS805/128 MSX2 and similar computers to MSX2+. Each upgrade step of this guide is fully illustrated. The upgrade must be done the way it's described in this document. Any alterations may result in a different end result or in a damage to the computer or components that are being used for the upgrade. The upgrade is fully reversible except for the VDP - you can convert your computer back to MSX2 any time. The upgraded VDP is backwards compatible with the original one.
 
+:warning:
 **WARNING!** If you don't have proper soldering skills, do not attempt to do this upgrade or you risk to damage the computer beyond repair! The RBSC is not responsible for any possible damages resulted from this upgrade. You are doing this upgrade solely on your own risk!
 
 ## Upgrade options
