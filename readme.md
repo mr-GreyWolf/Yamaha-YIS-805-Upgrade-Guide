@@ -84,7 +84,14 @@ The next step is to remove the Z80 CPU put a DIP40 socket in its place. If you i
 
 The adapter board requires 2 supports to be 3D-printed and installed under the board. Those are necessary to hold the board in place when installing or removing the F4/FMPAC combo board. Use the flathead screws to attach the supports to the adapter board before installation. You also need to put 2 pieces of thin double-sided sticky tape on the feet of both supports in order to glue them onto the motherboard. See the pictures below for reference:
 
-![](Pics/adapter1.jpg) ![](Pics/adapter2.jpg)
+<div>
+    <img src="Pics/adapter1.jpg"
+    width="30%" height="30%"/>
+</div>
+<div>
+    <img src="Pics/adapter2.jpg"
+    width="60%" height="60%"/>
+</div>
 
 The adapter board is available as open-source project in the RBSC's Github repository. The 3D models of the supports can be downloaded from the other RBSC's repository on Thingiverse:
 -   **https://github.com/RBSC/YIS805_Adapter** 
@@ -116,7 +123,15 @@ You may also install the sockets to other RAM chips if you want. This way you wi
 
 The J305 placeholder needs to be fitted with the 5-pin jumper pin header with the 2nd and 4th pins removed. The J306 needs to be fitted with the 3-pin jumper pin header with the middle pin removed. The prepared jumpers should be installed as shown on the pictures below. In case you will need to revert the RAM upgrade, you will need to remove J306 and move J306 to the left. Then you will have 128kb of RAM again.
 
-![](Pics/jumper1.jpg) ![](Pics/jumper2.jpg)
+<div>
+    <img src="Pics/jumper1.jpg"
+    width="40%" height="40%"/>
+&nbsp
+</div>
+<div>
+    <img src="Pics/jumper2.jpg"
+    width="35%" height="35%"/>
+</div>
 
 Power up your computer and observe the doubled RAM amount. If your computer doesn't boot, check all modifications and/or replace the RAM chips with the known good ones.
 
