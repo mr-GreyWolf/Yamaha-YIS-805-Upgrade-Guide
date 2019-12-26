@@ -13,7 +13,9 @@ Copyright (c) 2019 by RBSC
 
 The purpose of this document is to provide assistance in upgrading of the Yamaha YIS805/128 MSX2 and similar computers to MSX2+. Each upgrade step of this guide is fully illustrated. The upgrade must be done the way it's described in this document. Any alterations may result in a different end result or in a damage to the computer or components that are being used for the upgrade. The upgrade is fully reversible except for the VDP - you can convert your computer back to MSX2 any time. The upgraded VDP is backwards compatible with the original one.
 
+<p align="center"><font color="#c00000">
 **WARNING!** If you don't have proper soldering skills, do not attempt to do this upgrade or you risk to damage the computer beyond repair! The RBSC is not responsible for any possible damages resulted from this upgrade. You are doing this upgrade solely on your own risk!</font> </p>
+</fomt></p>
 
 ## Upgrade options
 
@@ -67,13 +69,13 @@ To complete the job you need to program 5 ROM chips with the necessary data usin
 The data in the archive is already prepared to be written into the 65kb W27C512 chips. After programming a chip we recommend to mark its number with a permanent marker. This will help to insert the chip into the correct socket. The info about the new ROMs and their locations in computer's memory can be found in the below table:
 
 | Socket | 1 |  2 |  3 |  4 | 5 |
-----------| --------------------- | --------------------- | --------------------- | --------------------- | --------------------- | 
-| <p align="center">**File**</p> | <p align="center">1.rom</p> | <p align="center">2.rom</p> | <p align="center">3.rom</p> | <p align="center">4.rom</p> |  <p align="center">5.rom</p> |
-| <p align="center">**Contents of the ROM**</p> | MSX2+ BIOS and Basic 3.0 | FMPAC BIOS (internal) | DISK BIOS 1.0 | MSX2+ EXT and Kanji ROM (part 1) | Kanji ROM (part 2) | 
-| <p align="center">**Position on board**</p> | <p align="center">IC320</p> | <p align="center">IC324</p> | <p align="center">IC328</p> | <p align="center">IC332</p> | <p align="center">IC336<p> |
-| <p align="center">**Slot allocation**</p> | <p align="center">0.0</p> | <p align="center">0.1</p> | <p align="center">3.1</p> | <p align="center">3.0</p> | <p align="center">3.0</p> |
-| <p align="center">**Address**</p> | <p align="center">0000-7FFF</p> | <p align="center">0000-7FFF</p> | <p align="center">0000-7FFF</p> | <p align="center">0000-7FFF</p> | <p align="center">8000-BFFF</p> |
-| <p align="center">**Size**</p> | <p align="center">32kb data</p> | <p align="center">16kb padding + 16kb data</p> | <p align="center">16kb padding + 16kb data</p> | <p align="center">32kb data</p> | <p align="center">16kb data + 16kb padding</p> |
+| :---: | :---: | :---: | :---: | :---: | :---: | 
+| **File** | 1.rom | 2.rom | 3.rom | 4.rom |  5.rom |
+| **Contents of the ROM** | MSX2+ BIOS and Basic 3.0 | FMPAC BIOS (internal) | DISK BIOS 1.0 | MSX2+ EXT and Kanji ROM (part 1) | Kanji ROM (part 2) | 
+| **Position on board** | IC320 | IC324| IC328 | IC332 | IC336 |
+| **Slot allocation** | 0.0 | 0.1 | 3.1 | 3.0 | 3.0 |
+| **Address** | 0000-7FFF | 0000-7FFF | 0000-7FFF | 0000-7FFF | 8000-BFFF |
+| **Size** | 32kb data | 16kb padding + 16kb data | 16kb padding + 16kb data | 32kb data | 16kb data + 16kb padding |
 
 By default the slot 0 is not expanded, but we need it to be expanded. To expand the slot 0 for the FMPAC BIOS you need to solder the 1N4148 diode to D301 placeholder as shown on the below image. This will permanently expand slot 0 and permit to use FM Basic commands. The diode must be soldered with the same orientation as D302 and D303 diodes. If your computer already has slot 0 expanded, you won't need to install the new diode.
 
