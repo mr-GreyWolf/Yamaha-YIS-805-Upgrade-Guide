@@ -55,7 +55,7 @@ The new VDP could be installed into a socket, but we recommend to solder it dire
 Finally, the 1N4148 diode must be installed **between Z80's pin 24** and **v9958's pin 26**. The diode's **anode must be connected to pin 24 of the CPU**. It's highly recommended to put a small piece of shrinktube on the diode to protect its solder joints. The last step is to put back the previously removed heatsink. Please make sure that you put enough thermal paste (similar to the one used with modern CPUs) onto the VDP chip before installing the heatsink. The heatsink must be soldered from both ends. The video showing the VDP replacement could be found here:
 -   **https://youtu.be/dz-oaFYrFdg?t=553**
 
-As the new VDP misses a few internal filters, we need to modify the CSYNC output circuit on the motherboard. This requires removing the TR309 transistor and the R424 resistor from the board. Then a wire needs to be installed between the side solder pads of the removed transistor. And finally a ceramic 100nF capacitor of needs to be installed on top of the R426 transistor. See the below picture for reference.
+As the new VDP misses a few internal filters, we need to modify the CSYNC output circuit on the motherboard. This requires removing the TR309 transistor and the R424 resistor from the board. Then a wire needs to be installed between the side solder pads of the removed transistor. And finally a ceramic 100nF capacitor of needs to be installed on top of the R426 resistor. See the below picture for reference.
 
 <div>
     <img src="Pics/sync.jpg"
