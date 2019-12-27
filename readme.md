@@ -9,4 +9,4 @@
 
 Copyright (c) 2019 by RBSC
 
-### [The fully illustrated upgrade guide (on English).](English.md)
+### [The fully illustrated upgrade guide (on English)](English.md)
