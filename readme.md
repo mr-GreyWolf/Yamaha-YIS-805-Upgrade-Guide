@@ -5,8 +5,8 @@
 
 # Upgrading Yamaha YIS805/128 to MSX2+
 
-The fully illustrated upgrade guide.
+
 
 Copyright (c) 2019 by RBSC
 
-### [Guide on English](English.md)
+### [The fully illustrated upgrade guide (on English).](English.md)
