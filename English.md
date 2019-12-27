@@ -74,6 +74,8 @@ To complete the job you need to program 5 ROM chips with the necessary data usin
     
 The data in the archive is already prepared to be written into the 65kb W27C512 chips. After programming a chip we recommend to mark its number with a permanent marker. This will help to insert the chip into the correct socket. The info about the new ROMs and their locations in computer's memory can be found in the below table:
 
+![](Pics/table.png)
+<!---
 | Socket → | 1 | 2 | 3 | 4 | 5 |
 | :---: | :---: | :---: | :---: | :---: | :---: | 
 | **File** | 1.rom | 2.rom | 3.rom | 4.rom | 5.rom |
@@ -82,6 +84,7 @@ The data in the archive is already prepared to be written into the 65kb W27C512 
 | **Slot allocation** | 0.0 | 0.1 | 3.1 | 3.0 | 3.0 |
 | **Address** | 0000-7FFF | 0000-7FFF | 0000-7FFF | 0000-7FFF | 8000-BFFF |
 | **Size** | 32kb data | 16kb padding + 16kb data | 16kb padding + 16kb data | 32kb data | 16kb data + 16kb padding |
+--->
 
 By default the slot 0 is not expanded, but we need it to be expanded. To expand the slot 0 for the FMPAC BIOS you need to solder the 1N4148 diode to D301 placeholder as shown on the below image. This will permanently expand slot 0 and permit to use FM Basic commands. The diode must be soldered with the same orientation as D302 and D303 diodes. If your computer already has slot 0 expanded, you won't need to install the new diode.
 
