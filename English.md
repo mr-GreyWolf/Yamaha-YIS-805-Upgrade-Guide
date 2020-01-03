@@ -192,11 +192,11 @@ We, the RBSC, enjoyed creating this MSX2+ upgrade for you! The following individ
 -   [RBSC] Ptero (Russia)
 -   [RBSC] DJS3000 (Russia) - thanks for the video!
 -   [RBSC] TNT23 (Russia) - big thanks for the keyboard for YIS805!
+-   [RBSC] GreyWolf (Russia)
 -   Petr Andreev (Russia) - big thanks for YIS805/128 and arranging its delivery!
 -   Kamil Karimov (Russia)
 -   Maxim Vlasov (Switzerland)
 -   Evgeny Brychkov (Russia)
--   GreyWolf (Russia)
 
 And those who opposed or tried to prevent this MSX2+ upgrade one way or another (you know who you are) will not be mentioned here. Let them stay in the dark shadows of their own pride forever. Amen!
 
